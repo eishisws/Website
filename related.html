@@ -3,27 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>styles.store</title>
     <link rel="stylesheet" href="./styles/site.css">
     <link rel="icon" type="image/x-icon" href="./media/favicon.png">
 </head>
-<body>
+<body class="rel">
     <div>
-        <nav>
+        <nav class="cc">
             <a href="index.html">home |</a>
             <a href="story.html">story |</a>
             <a href="stock.html">stock |</a>
             <a href="us.html">us |</a>
+            <a href="you.html">you |</a>
             <a href="stores.html">stores |</a>
             <a href="related.html">related</a>
         </nav>
     </div>
+    <form action="form.html" method="get" name="fName" id="fName">
+        <label for="fullName">Full Name</label>
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          maxlength="30"
+          placeholder="Jane Doe"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          size="50"
+          maxlength="60"
+          placeholder="jane.doe@email.com"
+        />
+        <fieldset>
+          <legend>What did You buy with us today?</legend>
+          <input type="checkbox" name="fName" id="pants">
+          <label for="pants">the classic jeans</label>
+          <br>
+          <input type="checkbox" name="fName" id="tee">
+          <label for="tee">"Delivrance" graphic tee</label>
+          <br>
+          <input type="checkbox" name="fName" id="dress">
+          <label for="dress">chic casual floral dress</label>
+          <br>
+          <input type="checkbox" name="fName" id="blazer">
+          <label for="blazer">light academia blazer</label>
+          <br>
+        </fieldset>
+        <fieldset>
+          <legend>How Many Times Do You Shop With Us</legend>
+          <input type="radio" name="dwn" id="once">
+          <label for="once">Once</label>
+          <br>
+          <input type="radio" name="dwn" id="oneortwo">
+          <label for="oneortwo">1 - 2</label>    
+          <br>
+          <input type="radio" name="dwn" id="twoorfive">
+          <label for="twoorfive">2 - 5</label>
+          <br>
+          <input type="radio" name="dwn" id="five">
+          <label for="five">More than 5</label>
+          </fieldset>
+          <fieldset>
+              <legend>Where did you hear about us</legend>
+              <select name="when" id="when" size="3" class="when">
+                  <option value="wake">Instagram</option>
+                  <option value="car">Friends and Family</option>
+                  <option value="work">X</option>
+                  <option value="before bed">Facebook</option>
+                  <option value="sleep">Other</option>
+              </select>
+          </fieldset>
+          <fieldset>
+              <legend>Please leave your comments here!</legend>
+              <textarea name="impact" id="impact" cols="100" rows="10"></textarea>
+          </fieldset>
+          <div class="actions">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Cancel">
+          </div>
+      </form>
+      <div class="links">
+        <h2 class="relay">Similar brands</h2>
+        <ul>
+            <li><a href="https://www.comme-des-garcons.com" target="_blank">COMME des GARCONS</a></li>
+            <li><a href="https://www.ysl.com/en-jp">Yves Saint-Laurent</a></li>
+            <li><a href="https://int.bape.com">BAPE</a></li>
+        </ul>
+      </div>
     <footer>
-        <nav>
+        <nav class="cc">
             <a href="index.html">home</a>
             <a href="story.html">story</a>
             <a href="stock.html">stock</a>
             <a href="us.html">us</a>
+            <a href="you.html">you</a>
             <a href="stores.html">stores</a>
             <a href="related.html">related</a>
         </nav>
